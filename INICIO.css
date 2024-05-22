@@ -1,0 +1,402 @@
+
+body{
+  background-image: url(img/ESTRELLAS.gif)
+}
+
+.flotar-izquierda{
+    float:left;
+    margin-right: 10px;
+}
+.float-derecha{
+    float:right;
+    margin-left:10px;
+}
+.limpiar{
+    clear:both;
+}
+
+#titulo8{
+    font-family: "cooper black";
+    font-size: 40px;
+    color: rgb(165, 5, 5);
+    text-shadow: 0 0 10px rgb(92, 86, 86);
+ 
+  }  
+  #titulo9{
+    font-family: "cooper black";
+    font-size: 40px;
+    color: rgb(0, 213, 255);
+    text-shadow: 0 0 10px rgb(0, 0, 250);
+    margin-left: 100px;
+    
+}
+#titulo8, #titulo9 {
+    display: inline-block;
+    margin: 0px
+}
+
+.contenedor-1{
+    text-align: center;
+    position:relative;
+}
+
+.texto-encima{
+    position: absolute;
+    /*bajar las letras*/
+    top: 50px;
+    /*subir las letras*/
+    left:10px ;
+    color: aliceblue;
+}
+#titulo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 50px;
+    color: rgb(20, 20, 20);
+    text-shadow: 0 0 10px rgb(63, 63, 63);
+    text-align: left;
+    
+ }
+ #titulo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 25px;
+    color: rgb(63, 58, 58);
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.995);
+    text-align: left;
+
+    
+ }
+ #titulo3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 30px;
+    color: rgb(20, 20, 20);
+    text-shadow: 0 0 10px rgb(63, 63, 63);
+    text-align: left;
+    
+ }
+ /* Mostrar el texto*/
+* {
+    font-family: arial;
+}
+
+
+#ct-2 {
+
+width: 700px;
+ height: 700px; 
+ border-style:ridge;
+ border-width: 2px;
+border-color: rgb(217, 226, 43);
+}
+
+
+/*que beneficios te ofrecemos*/
+
+#d {
+
+font: bold 50px Verdana;
+
+color: rgb(31, 30, 30);
+
+display: inline-block;
+}
+#dd {
+
+  font: bold 50px Verdana;
+  
+  color: rgb(173, 0, 0);
+  
+  display: inline-block;
+  }
+  
+
+ 
+ 
+  .wrapper{
+    margin:150px auto;
+    width: 70%;
+  }
+  #soporte{
+
+    max-width: 500px;
+    float:left;
+    border:3px solid #ffffff ;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+    top: -20px;
+     }
+     #soporte2{
+
+      max-width: 500px;
+      float:left;
+      border:3px solid #ff9494 ;
+      border-radius: 10px;
+      margin-right: 20px;
+      position: relative;
+      top: -20px;
+       }
+   /*primer contenedor*/
+    div.contenedor-2{
+    margin-top: 50px; 
+    border :5px double;
+     padding: 100px;
+     background: linear-gradient(#fabcbc,#b66a6a);
+     color:#ee6060; 
+     width:1000px;
+     height:490px; 
+     align-content: center;
+     /*sombreado de los borde*/
+     box-shadow: rgb(150,150,150)5px 5px 20px 10px;
+    
+    }
+    /*pArrado de soporte*/
+  .text-box {
+     color:#131111;   
+  }
+  .text-box h2 {
+    color:rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -20px;
+    text-shadow:  0 0 10px rgb(169, 33, 33), 0 0 10px rgb(169, 33, 33);
+  }
+  .text-box p{
+    font-size: 16px;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+  .btn-1{
+
+    background-color:  #b66a6a00;
+    border: 10px;
+    padding: 20px 32px;
+    text-align: center;
+    color:aliceblue;
+    font-size: 15px;
+    text-shadow:  0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108);
+
+
+}
+ .imagen-1{
+    width: 500px;
+    height:370px;
+
+   }
+
+/*segundo  contenedor*/
+
+   #limpieza{
+
+    max-width: 500px;
+    float:left;
+    border:3px solid #fff ;
+    border-radius: 10px;
+    margin-right: 20px;
+    position: relative;
+    top: -20px;
+
+    
+   }
+
+   div.contenedor-3{
+    background: linear-gradient(#fabcbc,#b66a6a);
+    margin-top: 50px; 
+    border :5px dashed;
+     padding: 100px;
+     width:860px;
+     height:500px; 
+     color:#ee6060; 
+     box-shadow: rgb(127, 65, 65) 5px 5px 20px 10px;   
+    }
+    
+
+
+    .limpieza {
+        color:#fff;   
+     }
+     .limpieza h2 {
+      color:rgb(255, 255, 255);
+       font-size: 60px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       margin-top: -20px;
+       text-shadow:  0 0 10px rgb(228, 79, 79), 0 0 10px rgb(250, 29, 29);
+     }
+     .limpieza p{
+      color:rgb(0, 0, 0);
+       font-size: 16px;
+       display: flex;
+       font-family:Arial, Helvetica, sans-serif;
+       font-size: 25px;
+     }
+     .btn-2{
+   
+       background-color: rgba(212, 96, 96, 0);
+       border: 10px;
+       padding: 20px 32px;
+       text-align: center;
+       color:aliceblue;
+       font-size: 20px;
+       text-shadow:  0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108);
+
+     }
+
+    .imagen-2{
+     width: 400px;
+     height:300px;
+    
+    }
+    /* contenedor 3*/
+    
+    #venta{
+/*TITULO DE VENTA */
+        max-width: 500px;
+        float:center;
+        color: #c31717;
+        border-radius: 10px;
+        margin-right: 10px;
+        position: center;
+   
+       }
+    
+       div.contenedor-4{              
+        background: linear-gradient(#fabcbc,#b66a6a); 
+        margin-top: 50px; 
+        border :5px solid;
+         padding: 100px;
+         width:860px;
+         height:720px; 
+         color:#ee6060; 
+         box-shadow: rgb(127, 65, 65) 5px 5px 20px 10px;  
+        }
+    
+    
+        .venta{
+            color:#ffffff;   
+         }
+         .venta h1 {
+           color:rgb(255, 255, 255);
+           font-size: 60px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           margin-top: -70px;
+           text-shadow:  0 0 10px rgb(228, 79, 79), 0 0 10px rgb(250, 29, 29);
+         }
+         .venta p{
+           font-size: 16px;
+           display: flex;
+           font-family:Arial, Helvetica, sans-serif;
+           font-size: 25px;
+         }
+         .btn-3{
+       
+           background-color: coral;
+           border: 10px;
+           padding: 20px 32px;
+           text-align: center;
+           color:aliceblue;
+           font-size: 20px;
+           text-shadow:  0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108);
+
+         }
+    
+        .imagen-3{
+          filter: grayscale(1);
+         width: 400px;
+         height:300px;
+
+        
+        }
+        .imagen-10{
+          filter:sepia(1);
+         width: 400px;
+         height:300px;
+        
+        }
+      .imagen-4{
+        filter: blur(2px);
+        width: 400px;
+         height:300px;
+         display: flex;
+         justify-content: flex-end;
+
+        }
+        .imagen-5{
+          filter:drop-shadow(2px);
+          width: 400px;
+           height:300px;
+           display: flex;
+           justify-content: flex-end;
+
+          
+        }
+      .regresar{
+        background-color: rgba(206, 96, 96, 0.922);
+        border: 10px;
+        padding: 10px 15px;
+        text-align: center;
+        color:aliceblue;
+        font-size: 10px;
+        text-shadow:  0 0 10px rgb(56, 55, 55),0 0 10px rgb(56, 55, 55),0 0 10px rgb(56, 55, 55);
+        cursor: pointer;
+        background-image: url("img/Madera.jpg");
+      }
+      footer{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        text-align: center;
+        color: rgb(4, 4, 4);
+        background-image: url("img/Madera.jpg");
+        border: 4px solid rgb(151, 90, 116);
+      }
+
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+  }
+  .image-container img {
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  .image-container img:hover {
+    transform: scale(1.1);
+  }
+  .info-container {
+    width: 100%;
+    overflow: auto;
+  }
+  .info-box {
+    padding: 20px;
+    background-color: #ef9a9a94;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .image-container img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .image-container a {
+    width: 40px;
+    height:70px;
+  }
+  .image-container p {
+    width: 40px;
+    height:70px;
+  }

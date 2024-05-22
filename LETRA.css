@@ -1,0 +1,97 @@
+
+#titulo2{
+    font-family: "cooper black";
+    font-size: 90px;
+    color: rgba(232, 67, 67, 0.9);
+    text-shadow: 0 0 10px rgb(67, 69, 126);
+    
+  }  
+  #titulo3{
+    font-family: "cooper black";
+    font-size: 70px;
+    color: rgba(232, 67, 67, 0.9);
+    text-shadow: 0 0 10px rgb(67, 69, 126);
+    margin-left: 100px;
+    
+}
+h1{
+    letter-spacing: 5;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+color: rgb(9, 9, 9);
+background-image:url(img/Degradado.jpg) ;
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+.contenedor{
+    display:flex;
+}
+.txt-1{
+    margin:0px 79px;
+    text-align: center;
+    color:rgb(75, 76, 136);
+
+}
+
+#c1{
+    background-color: rgb(105, 122, 235);
+    border: 10px;
+    padding: 20px 32px;
+    text-align: center;
+    color:rgb(13, 14, 14);
+    font-size: 20px;
+    text-shadow:  0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108);
+    cursor: pointer;
+}
+
+#c2{
+    background-color: rgb(204, 233, 188);
+    border: 10px;
+    padding: 20px 32px;
+    text-align: center;
+    color:rgb(13, 14, 14);
+    font-size: 20px;
+    text-shadow:  0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108);
+    cursor: pointer;
+}
+
+#c3{
+    background-color: rgb(235, 105, 192);
+    border: 10px;
+    padding: 20px 32px;
+    text-align: center;
+    color:rgb(13, 14, 14);
+    font-size: 20px;
+    text-shadow:  0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108);
+    cursor: pointer;
+}
+
+#c4{
+    background-color: rgb(245, 204, 204);
+    border: 10px;
+    padding: 20px 32px;
+    text-align: center;
+    color:#4b4c85;
+    font-size: 20px;
+    text-shadow:  0 0 10px rgb(216, 93, 93),0 0 10px rgb(153, 55, 55),0 0 10px rgb(68, 71, 108);
+    cursor: pointer;
+}
+
+#c5{
+    background-color: rgb(252, 183, 143);
+    border: 10px;
+    padding: 20px 32px;
+    text-align: center;
+    color:rgb(13, 14, 14);
+    font-size: 20px;
+    text-shadow:  0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108),0 0 10px rgb(68, 71, 108);
+    cursor: pointer;
+}
