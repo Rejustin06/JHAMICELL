@@ -1,0 +1,18 @@
+@font-face{
+    font-family: "GreatVibes";
+    src: url("Fuentes/GreatVibes-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "BungeeInLine";
+    src: url("Fuentes/BungeeInline-Regular.ttf") format("truetype");
+}
+#p1{
+    font-family: "GreatVibes";
+    font-size: 50px;
+    color: red;
+}
+#p2{
+    font-family: "BungeeInLine";
+    font-size: 30px;
+    color: blue;
+}

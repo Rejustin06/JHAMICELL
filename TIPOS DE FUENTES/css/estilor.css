@@ -1,0 +1,12 @@
+@import
+    url("https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap");
+
+#titulo{
+    font-family: "cooper black";
+    font-size: 26px;
+}
+#descripcion{
+    font-family: "Mystery Quest", cursive;
+    font-size: 120%;
+    color: blue;
+}

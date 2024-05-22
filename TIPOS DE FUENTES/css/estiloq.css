@@ -1,0 +1,13 @@
+#titulo{
+    font-family: "cooper black";
+    font-size: 26px;
+}
+@font-face{
+    font-family: "Mystery Quest";
+    src: url("Fuentes/MysteryQuest-Regular.ttf");
+}
+#descripcion{
+    font-family: "Mystery Quest", cursive;
+    font-size: 120%;
+    color: crimson;
+}

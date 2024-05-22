@@ -1,0 +1,18 @@
+p:nth-child(2){
+    font-size: 20px;
+}
+p:last-child{
+    font-size: 20px;
+}
+:not(p){
+    margin: 0px;
+}
+section:not(.mitexto2){
+    margin: opx;
+}
+p:nth-child(odd){
+    background-color: #999999;
+}
+p:nth-child(even){
+    background-color: #cccccc;
+}
